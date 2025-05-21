@@ -1,0 +1,54 @@
+{
+  "websiteType": "portfolio",
+  "targetAudience": "Potential Employers, Freelance Clients, Collaborators",
+  "mainGoal": "gain freelance clients by showcasing work and demonstrating value",
+  "colorScheme": "Soft white or light gray background, muted teal or deep blue accents, dark charcoal or black text, optional warm color like coral or mustard",
+  "theme": "clean, modern, and minimal",
+  "pages": [
+    "Home",
+    "About Me",
+    "Projects",
+    "Blog",
+    "Contact",
+    "Resume"
+  ],
+  "sections": [],
+  "features": [
+    "Interactive Project Gallery – With filters (e.g., web, design, branding) and lightbox previews",
+    "Testimonial Section – Short quotes from clients or collaborators to build trust",
+    "Integrated Social Media Links – Icons linked to LinkedIn, GitHub, and Instagram",
+    "Contact Form – With basic validation and optional file upload",
+    "Responsive Design – Optimized for mobile, tablet, and desktop",
+    "Resume Download Button – Optional, linked to a PDF version of my CV"
+  ],
+  "content": {},
+  "designPreferences": {},
+  "images": [],
+  "fonts": "",
+  "contactInfo": {
+    "email": "hello@[yourdomain].com",
+    "contactForm": {
+      "fields": [
+        "name",
+        "email",
+        "message",
+        "file upload"
+      ],
+      "confirmationMessage": "I usually reply within 48 hours."
+    },
+    "socialLinks": {
+      "LinkedIn": "",
+      "GitHub": "",
+      "Instagram": "",
+      "Twitter": "",
+      "Dribbble": "",
+      "Behance": ""
+    },
+    "optionalPhoneNumber": "",
+    "location": ""
+  },
+  "customScripts": "",
+  "branding": {},
+  "updateRequests": [],
+  "additionalNotes": ""
+}
