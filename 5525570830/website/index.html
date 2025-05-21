@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WoHelp</title>
+</head>
+<body>
+    <header>
+        <h1>WoHelp</h1>
+        <nav>
+            <ul>
+                <li><a href="#products" onclick="showSection('products')">Products</a></li>
+                <li><a href="#blog" onclick="showSection('blog')">Blog</a></li>
+                <li><a href="#community" onclick="showSection('community')">Community</a></li>
+                <li><a href="#reviews" onclick="showSection('reviews')">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="products" class="active">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <h3>Stylish Dress</h3>
+                    <p>Price: $50</p>
+                </div>
+                <div class="product-item">
+                    <h3>Elegant Top</h3>
+                    <p>Price: $30</p>
+                </div>
+                <div class="product-item">
+                    <h3>Trendy Accessories</h3>
+                    <p>Price: $20</p>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="hidden">
+            <h2>Blog</h2>
+            <article>
+                <h3>How to Style Your Summer Wardrobe</h3>
+                <p>Explore great tips on styling your outfits!</p>
+            </article>
+            <article>
+                <h3>Community Stories: Women Supporting Women</h3>
+                <p>Read inspiring stories from our amazing community.</p>
+            </article>
+        </section>
+        <section id="community" class="hidden">
+            <h2>Join Our Community</h2>
+            <p>Connect with other women and share your experiences.</p>
+        </section>
+        <section id="reviews" class="hidden">
+            <h2>User Reviews</h2>
+            <div class="review-list">
+                <p>"I love the stylish dresses! - Sarah"</p>
+                <p>"Great community support! - Emily"</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 WoHelp | All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
