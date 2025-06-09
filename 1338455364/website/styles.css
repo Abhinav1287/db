@@ -1,0 +1,18 @@
+body { background-color: #F9FAFB; color: #2E2E2E; font-family: 'Open Sans', sans-serif; margin: 0; padding: 0; }
+header { background-color: #FF6B61; padding: 20px; text-align: center; }
+header h1 { margin: 0; font-family: 'Montserrat', sans-serif; }
+nav ul { list-style-type: none; padding: 0; }
+nav li { display: inline; margin: 0 15px; }
+nav a { text-decoration: none; color: white; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+main { padding: 20px; }
+section { margin: 40px 0; }
+h2 { font-family: 'Poppins', sans-serif; color: #3A8D9C; }
+.service { margin: 20px 0; border-left: 4px solid #FF6B61; padding-left: 15px; }
+form { display: flex; flex-direction: column; max-width: 400px; margin: auto; }
+form label { margin: 10px 0 5px; }
+form input, form textarea { padding: 10px; margin-bottom: 10px; border: 1px solid #E0E0E0; border-radius: 5px; }
+form button { background-color: #FF6B61; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
+form button:hover { background-color: #FF4F4F; }
+footer { text-align: center; padding: 20px 0; background-color: #F2E9E4; }
+@media (min-width: 600px) { main { display: grid; grid-template-columns: 1fr 2fr; grid-gap: 20px; } }
