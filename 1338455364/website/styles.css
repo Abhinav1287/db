@@ -1,0 +1,11 @@
+body { background-color: #4B0082; color: white; font-family: Arial, sans-serif; }
+header { text-align: center; padding: 20px; }
+nav ul { list-style-type: none; }
+nav ul li { display: inline; margin: 0 15px; }
+nav a { color: white; text-decoration: none; }
+.page { padding: 20px; }
+footer { text-align: center; padding: 10px; background-color: #3B0038; }
+h3 { color: #DDA0DD; }
+form { display: flex; flex-direction: column; align-items: center; }
+input, textarea { width: 80%; margin: 10px 0; padding: 10px; }
+#analytics { margin-top: 20px; }
